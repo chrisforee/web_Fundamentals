@@ -1,0 +1,47 @@
+*{
+    color: blue;
+}
+
+body{
+    background-color: aqua;
+    color: green;
+}
+h1{
+    text-align: center;
+    color: firebrick;
+    font-size: 40px;
+    background-color: cornflowerblue;
+}
+h2{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 100;
+    font-family: cursive;
+}
+h3{
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+}
+span{
+    color: darkkhaki;
+}
+p{
+    color: indigo;
+    line-height: 40px;
+}
+#first_p{
+    font-style: italic;
+    color: fuchsia;
+}
+
+.unda{
+    text-decoration: underline;
+    color: green;
+}
+ul>li{
+    font-size: 28px;
+}
+div>h3{
+    font-style: italic;
+}
