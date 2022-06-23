@@ -1,4 +1,4 @@
-.side-nav, .main,.sub-content {
+.side-nav, .main,.sub-content, .top-nav {
     margin: 10px;
 }
 .container{
@@ -21,15 +21,16 @@
     height: 400px;
     width: 700px;
     background-color: red;
+    padding: 5px;
 }
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 205px;
     background-color: yellow;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
+    width: 655px;
     background-color: purple;
     margin: 10px;
 }
