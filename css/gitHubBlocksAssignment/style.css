@@ -1,0 +1,32 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+.container{
+    height: 250px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content:center;  /*x axis */
+    align-items:center; /*y axis*/
+    margin: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#cont_1{
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+#cont_2{
+    background-color: red;
+}
