@@ -6,7 +6,7 @@
 .search_button{
     height: 40px;
     width: 220px;
-    margin: 100px;
+    /* margin: 100px; */
     font-size: 20px;
     color: mediumturquoise;
     font-weight: 800;
@@ -17,7 +17,7 @@
 .add_button{
     height: 50px;
     width: 50px;
-    margin: 100px;
+    /* margin: 100px; */
     margin-top: 10px;
     font-size: 25px;
     color: white;
@@ -30,7 +30,7 @@
 .create_account{
     height: 50px;
     width: 320px;
-    margin: 100px;
+    /* margin: 100px; */
     font-size: 25px;
     color: white;
     background-color: blue;
