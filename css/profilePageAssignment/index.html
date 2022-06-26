@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <div id="navLFT">
+            <ul>
+                <li id="profile">Profile</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button id="soBtn">Sign Out</button>
+    </div>
+    <div id="main">
+        <div class="columnLeft">
+            <div id="proflileCard">
+                <div id="profileHeader">
+                    <img id="proPic" src="./imgs/jane-m.jpg" alt="Profile picture">
+                </div>
+                <div id="profileBody">
+                    <h2>Jane Doe</h2>
+                    <img id="mapMarker" src="./icons/map-marker.png" alt="map marker">
+                    <span>Seattle</span>
+                    <p id="finalP">Developer | Engineer | Problem Solver <br>Master of shadows and the Internet!</p>
+                    <img id="gear" src="./icons/gear.png" alt="gear icon">
+                    <a href="#">edit profile</a>
+                </div>
+                <div id="eduCard">
+                    <div id="eduHeader">
+                        <h3>Education</h3>
+                    </div>
+                    <div id="eduBody">
+                        <p id="eduInfo">Coding Dojo - Full Stack Bootcamp</p>
+                        <p id="dates">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#</p>
+                    </div>
+                </div>    
+            </div>         
+        </div>
+        <div class="columnRight">
+            <div class="connectCard">
+                <div class="cardHeader">
+                    <span class="connectCount">2</span>
+                    <span>Connection Requests</span>
+                </div>
+                <div class="cardBody">
+                    <div class="userRow">
+                        <img class="thumbPic"src="./imgs/todd-s.jpg" alt="user pic">
+                        <span>Todd E</span>
+                        <img id="acceptIcon" src="./icons/accept-circle.png" alt="accept icon">
+                        <img id="declineIcon"src="./icons/close-circle.png" alt="reject icon">
+                    <div class="userRow">
+                        <img class="thumbPic"src="./imgs/phil-s.jpg" alt="user pic">
+                        <span>Phil K</span>
+                        <img id="acceptIcon" src="./icons/accept-circle.png" alt="accept icon">
+                        <img id="declineIcon"src="./icons/close-circle.png" alt="reject icon">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

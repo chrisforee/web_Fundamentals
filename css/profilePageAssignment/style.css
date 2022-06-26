@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navBar{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 270px;
+    padding-right: 270px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#navLFT{
+    display: flex;
+}
+#profile{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#navLFT ul{
+    display: flex;
+    list-style-type: none;
+    gap: 55px;
+    align-items: center;
+    font-size: larger;
+    letter-spacing: -.5px;
+}
+#navLFT a{
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(202,202,202);
+}
+#soBtn{
+    width: 110px;
+    height: 30px;
+    color: white;
+    border-style: none;
+    background-color: rgb(20,162,184);
+    font-size: 1.3rem;
+}
+#main{
+    display: flex;
+    padding: 0 270px;
+}
+.columnLeft{
+    /* border: 2px solid pink; */
+    height: 900px;
+    flex: 1.2; 
+    margin-top: 40px;
+}
+.columnRight{
+    border: 2px solid blue;
+    height: 900px;
+    flex: 1; 
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#profileHeader{
+    background-color: rgb(20,162,184) ;
+    width: 100%;
+    height: 130px;
+    padding: 65px 0 0 35px;
+}
+#proPic{
+    border-radius: 50%;
+    height: 120px;
+    padding: 2.5px;
+    background-color: white;
+    border: 3px solid rgb(222,222,222);
+}
+#profileBody{
+    border: 2px solid rgb(204,204,204);
+    border-top: none;
+    height: 250px;
+    padding: 55px 0 0 35px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-bottom: 40px;
+    /* display: flex; */
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#mapMarker{
+    height: 20px;
+}
+#profileBody>span{
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+#finalP{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#gear{
+    height: 25px;
+}
+#eduCard{
+    height: 190px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#eduHeader{
+    /* border: 2px solid violet; */
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding-left: 35px;
+    background-color: black;
+    color: white; 
+}
+#eduBody{
+    border: 2px solid rgb(206,206,206);
+    border-top: none;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#eduInfo{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#dates{
+    color: rgb(124,124,124);
+    margin-bottom: 15px;
+}
+.connectCard{
+    border: 2px solid green;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.cardHeader{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    padding-left: 30px; 
+}
+.connectCount{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    /* -moz-border-radius: 30px; or 50% */
+    border-radius: 30px; /* or 50% */
+    background-color: rgb(204,204,204);
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 15px;
+}
+.cardBody{
+display: flex;
+flex-wrap: wrap;
+}
+.userRow{
+    border: 2px solid pink;
+    height: 80px;
+}
+.thumbPic{
+    height: 60px;
+    border-radius: 50%;
+}
+#acceptIcon{
+    height: 55px;
+}
+#declineIcon{
+    height: 55px;
+}
