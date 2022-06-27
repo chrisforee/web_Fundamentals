@@ -55,14 +55,7 @@
     flex: 1.2; 
     margin-top: 40px;
 }
-.columnRight{
-    border: 2px solid blue;
-    height: 900px;
-    flex: 1; 
-    margin-top: 40px;
-    margin-left: 40px;
-    font-family: 'Balsamiq Sans', cursive;
-}
+
 #profileHeader{
     background-color: rgb(20,162,184) ;
     width: 100%;
@@ -77,7 +70,7 @@
     border: 3px solid rgb(222,222,222);
 }
 #profileBody{
-    border: 2px solid rgb(204,204,204);
+    border: 3px solid rgb(204,204,204);
     border-top: none;
     height: 250px;
     padding: 55px 0 0 35px;
@@ -117,7 +110,7 @@ h2{
     color: white; 
 }
 #eduBody{
-    border: 2px solid rgb(206,206,206);
+    border: 3px solid rgb(206,206,206);
     border-top: none;
     align-items: center;
     justify-content: center;
@@ -131,52 +124,114 @@ h2{
     color: rgb(124,124,124);
     margin-bottom: 15px;
 }
-.connectCard{
-    border: 2px solid green;
-    height: 250px;
-    width: 100%;
+.columnRight{
+    /* border: 2px solid blue; */
+    height: 900px;
+    flex: 1; 
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.topCard{
+    border-top: none;
+    height: 280px;
     display: flex;
-    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 .cardHeader{
+    /* outline: 2px solid greenyellow; */
     background-color: black;
     color: white;
-    height: 80px;
     width: 100%;
-    font-size: 1.9rem;
+    height: 90px;
     display: flex;
     align-items: center;
-    padding-left: 30px; 
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    /* justify-content: space-around; */
 }
 .connectCount{
-    display: block;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    /* -moz-border-radius: 30px; or 50% */
-    border-radius: 30px; /* or 50% */
     background-color: rgb(204,204,204);
-    color: black;
-    text-align: center;
-    font-size: 1em;
-    margin-right: 15px;
+    border-radius: 50%;
+    padding: 5px 13px;
+    margin-right: 20px;
+    color: black; 
 }
 .cardBody{
-display: flex;
-flex-wrap: wrap;
+    border: 3px solid rgb(204,204,204);
+    border-top: none;
+    width: 530px;
+    height: 190px;
+    font-weight: 900;
 }
 .userRow{
-    border: 2px solid pink;
-    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.userRow span{
+    height: 50px;
 }
 .thumbPic{
-    height: 60px;
     border-radius: 50%;
+    height: 65px;
+    border: 3px solid black;
+    margin: 15px 10px 10px 20px;
 }
-#acceptIcon{
-    height: 55px;
+#acceptDecline{
+    height: 50px; 
+    margin-inline-start: 120px;
+    margin-right: 20px;
 }
-#declineIcon{
-    height: 55px;
+.bottomCard{
+    width: 530px;
+    height: 465px;
+    margin-top: 40px;
+}
+.bottomCardBody{
+    border: 3px solid rgb(204,204,204);
+    border-top: none;
+    width: 530px;
+    height: 430px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#userRowBottom1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#userRowBottom1 span{
+    height: 50px;
+}
+#userRowBottom2{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#userRowBottom2 span{
+    height: 50px;
+}
+#userRowBottom3{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#userRowBottom3 span{
+    height: 50px;
+}
+#userRowBottom4{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#userRowBottom4 span{
+    height: 50px;
+}
+.viewMore{
+    /* border: 2px solid hotpink; */
+    border-top: 3px solid rgb(204,204,204);
+    height: 70px;
+    padding: 15px;
 }
