@@ -79,7 +79,7 @@ body{
     font-size: 25px;
     margin-bottom: 40px;
 }
-#wordType{
+.wordType{
     font-size: 35px;
     margin-bottom: 10px;
 }
