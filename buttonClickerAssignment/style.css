@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 150px 150px 150px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#navBar>h1{
+    font-size: 55px;
+}
+#navBar{
+    /* border: 3px solid pink; */
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(204,204,204) ;
+    margin-bottom: 30px;
+    
+}
+#navSearch{
+    height: 40px;
+    /* width: 500px; */
+}
+#navBar input{
+    width: 500px;
+    height: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+#navButton{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(43,119,228);
+    border: 2px solid black;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    box-shadow: 3px 3px black;
+}
+#main{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 800px;
+}
+#colRight{
+    /* border: 2px solid magenta; */
+    height: 800px;
+    flex: 2;
+}
+#colLeft{
+    /* border: 2px solid yellowgreen; */
+    height: 800px;
+    flex: 1;
+}
+.wordCard{
+    border: 3px solid black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+    /* width: 400px; */
+    display: flex;
+}
+.ninCard{
+    /* border: 2px solid brown; */
+    flex: 1.7;
+    text-align: center;
+}
+.ninCard>h2{
+    font-size: 65px;
+    margin: 30px 0 0 0;
+}
+.ninCard>p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+#wordType{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.likeButton{
+    width: 150px;
+    height: 50px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    background-color: rgb(255,216,102);
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+.defCard{
+    /* border: 2px solid blueviolet; */
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: left;
+}
+#addDefCard{
+    border: 3px solid black;
+    height: 270px;
+    text-align: left;
+    font-size: 45px;
+    padding: 30px;
+}
+#addDefCard>p{
+    margin-bottom: 15px;
+}
+
+#addButton{
+    height: 60px;
+    width: 420px;
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(146,196,124);
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+}

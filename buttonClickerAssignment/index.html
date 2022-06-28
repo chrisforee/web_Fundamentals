@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navBar">
+        <h1>Dojonary</h1>
+        <div id="navSearch"><input type="text" placeholder="Search">
+    </div>
+    <button onclick="changeStatus(this)" id="navButton">Login</button>
+    </div>
+    <div id="main">
+        <div id="colRight">
+            <div class="wordCard">
+                <div class="ninCard">
+                    <h2>ninja</h2>
+                    <p id="wordType"><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')"class="likeButton">13 likes</button>
+                </div>
+                <div class="defCard">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="wordCard">
+                <div class="ninCard">
+                    <h2>ninja</h2>
+                    <p id="wordType"><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')"class="likeButton">37 likes</button>
+                </div>
+                <div class="defCard">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="colLeft">
+            <div id="addDefCard">
+                <p>Dojonary is defined <span> by <strong>YOU</strong></p>
+                <button onclick="removeElement(this)" id="addButton">Add Definition</button>   
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
