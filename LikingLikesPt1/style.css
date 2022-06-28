@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.userFrame{
+    border: 2px solid black;
+    height: 350px;
+    width: 800px;
+    border: 3px solid black;
+}
+#topBox{
+    /* border: 2px solid red; */
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#userInfo{
+    /* border: 2px solid green; */
+    height: 200px;
+    flex: 1.2;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+h1{
+    font-size: 3.1rem;
+}
+#likes{
+    /* border: 2px solid purple; */
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.7rem;
+    padding: 40px;
+}
+#likesButton{
+    width: 105px;
+    height: 45px;
+    font-size: 1.3rem;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(255,216,102);
+    border: solid black;
+    box-shadow: 5px 5px black;
+
+}
+#bottomBox{
+    padding: 40px;
+    display: flex;
+    font-size: 2.4rem;
+    
+}
