@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="mainFrame">
+        <div id="topHeader">
+            <h1>Network</h1>
+        </div>
+        <h2>Your Feed</h2>
+        <div id="columnsFrame">
+            <div class="selfieFrame">
+                <img id="userPic" src="./imgs/user-circle.png" alt="user pic">
+                <a id="addAvatar" href="#">Add an Avatar</a>
+                <p>James Doe</p>
+            </div>
+            <div id="feedFrame">
+                <div class="otherUsersFrame">
+                    <div id="topBox">
+                        <div id="userInfo">
+                            <p>Neil M</p>   
+                        </div>
+                        <div id="likes">
+                            <p><span id="likeCounter1">3</span> like(s)</p>
+                            <button onclick="incrementLike('#likeCounter1')" id="likesButton">Like</button>
+                        </div>
+                    </div>
+                    <div id="bottomBox">
+                        <p>I just set up this new discord bot. let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="otherUsersFrame">
+                    <div id="topBox">
+                        <div id="userInfo">
+                            <p>Neil M</p>   
+                        </div>
+                        <div id="likes">
+                            <p><span id="likeCounter2">3</span> like(s)</p>
+                            <button onclick="incrementLike('#likeCounter2')" id="likesButton">Like</button>
+                        </div>
+                    </div>
+                    <div id="bottomBox">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="otherUsersFrame">
+                    <div id="topBox">
+                        <div id="userInfo">
+                            <p>Neil M</p>   
+                        </div>
+                        <div id="likes">
+                            <p><span id="likeCounter3">3</span> like(s)</p>
+                            <button onclick="incrementLike('#likeCounter3')" id="likesButton">Like</button>
+                        </div>
+                    </div>
+                    <div id="bottomBox">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

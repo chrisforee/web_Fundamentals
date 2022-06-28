@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mainFrame{
+    border: 2px solid green;
+    padding: 0px 250px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#topHeader{
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin-left: 30px;
+}
+h2{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 15px 0px;
+}
+#columnsFrame{
+    /* border: 2px solid magenta;
+    height: 550px; */
+    display: flex;
+}
+.selfieFrame{
+    border: 2px solid black;
+    height: 460px;
+    flex: 1.1;
+    padding: 20px;
+    justify-content: center;
+}
+.selfieFrame>p{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.selfieFrame>a{
+    font-size: 1.8rem;
+    text-align: center;
+}
+#userPic{
+    height: 200px;
+    margin-bottom: 40px;
+}
+#feedFrame{
+    margin-left: 20px;
+}
+.otherUsersFrame{
+    border: 2px solid black;
+    flex: 1;
+    height: 310px;
+    margin-bottom: 20px;
+}
+#topBox{
+    /* border: 2px solid red; */
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#userInfo{
+    /* border: 2px solid green; */
+    flex: 1.2;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+#userInfo>p{
+    font-size: 3.1rem;
+}
+#likes{
+    /* border: 2px solid purple; */
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.9rem;
+    padding: 40px;
+}
+#likesButton{
+    width: 105px;
+    height: 45px;
+    font-size: 1.3rem;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(255,216,102);
+    border: solid black;
+    box-shadow: 5px 5px black;
+}
+#bottomBox{
+    padding: 40px;
+    display: flex;
+    font-size: 2.1rem;
+    
+}
