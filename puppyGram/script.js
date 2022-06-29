@@ -1,31 +1,32 @@
+// Change text
 function uploadPup(element){
     console.log("wazzaaaa", element);
     element.innerText = "Uploaded! Thank you.";
 }
 
-
+// Remove something
 function removeElement(element){
     console.log("trying to remove something ....wazaaaa");
     element.remove();
 }
 
-
+// On mouse over event (play)
 function playVideo(element){
     console.log("wazaaa playing video");
     element.play();
 }
 
-
+// On mouse out event (pause)
 function pawsVideo(element){
     element.pause();
 }
-
+// Change image
 function changeImg(element){
     console.log("wazaaaa", element);
     element.src = "./resources/anothaPuppy.jpeg";
 }
 
-
+// Removing an element and using query selector (selecting changing html/css)
 function cookieMonster(){
     console.log("cookie monsta!");
     var element = document.querySelector("#cookie-box");
