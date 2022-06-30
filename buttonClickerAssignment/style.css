@@ -39,7 +39,7 @@ body{
     background-color: rgb(43,119,228);
     border: 2px solid black;
     color: white;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     font-size: 25px;
     box-shadow: 3px 3px black;
 }

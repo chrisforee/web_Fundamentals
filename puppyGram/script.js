@@ -43,3 +43,8 @@ function incrementLike(id){
     likeCount++; //increment the like count
     element.innerText = likeCount; //update teh element so that its innerText is the new like count
 }
+function alertMessageFromInput(){
+    console.log("connected!!!");
+    let searchInput = document.querySelector("#search");
+    alert("You searched for " +  searchInput.value);
+}

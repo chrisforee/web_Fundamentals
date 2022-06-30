@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px 80px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#topHeader{
+    /* border: 2px solid red ; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+h1{
+    font-size: 4rem;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+#topLeaf{
+    height: 80px;
+    background-color:rgb(3,209,178);
+}
+#spyglass{
+    height:20px;
+    margin-right: 10px;
+    position: relative;
+    right: 50px;
+}
+#navSearch{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+#topHeader>p{
+    font-size: 1.4rem;
+    margin-left: 200px;
+    margin-right: 15px;
+}
+#cart{
+    height: 40px;
+}
+/* TopNav */
+#topNav{
+    /* border: 2px solid green; */
+    height: 75px;
+}
+#topNavList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    margin-top: 25px;
+    border-bottom: 5px solid black;
+}
+#midHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7rem;
+}
+#cols{
+    /* border: 2px solid magenta; */
+    /* height: 400px; */
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#col1{
+    /* border: 2px dotted palegreen; */
+    flex: 365;
+    display: flex;
+    margin-right: 30px;
+}
+#col2{
+    /* border: 2px dotted orange; */
+    flex: 1;
+}
+#colL{
+font-size: 4rem;
+color: white;
+background-color: rgb(3,209,178);
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+#arrow{
+    /* margin-top: 25px; */
+}
+
+#colR>colRImg{
+    height: auto;
+}
+#row1{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:flex-end;
+}
+#row2{
+    background-color: rgb(3,209,178);
+    color: white;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#lastCol{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(183,237,235);
+    height: 350px;
+    text-align: center;
+}
+.plantBox>img{
+    border-radius: 50%;
+    height: 200px;
+}
+.plantBox>p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+#cookie-box{
+    border: 2px solid black;
+    margin: 0px 30px;
+    font-size: 22px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    bottom: 20px;
+}
+
+#cookie-box>img{
+    width: 120px;
+}
+
+#cookie-box>button{
+    background-color: rgb(3,209,178);
+    border-color: black;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px black;
+    margin-left: 15px;
+}
+
+

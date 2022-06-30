@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Balsamiq Sans'
+}
+#navBar{
+    background-color: rgb(159,197,248);
+    color: white;
+    display: flex;
+    padding: 0px 400px;
+}
+#navBar>h1{
+    font-size: 4.5rem;
+}
+#navBar ul{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+#cityList{
+    list-style: none;
+    font-size: 1.9rem;
+    margin-left: auto;
+}#mainFrame{
+    padding: 0px 400px;
+}
