@@ -165,24 +165,24 @@ h2{
     height: 190px;
     font-weight: 900;
 }
+
 .userRow{
     display: flex;
-    justify-content:space-around;
     align-items: center;
-}
-.userRow span{
-    height: 50px;
+    font-size: 1.6rem;
 }
 .thumbPic{
     border-radius: 50%;
     height: 65px;
     border: 3px solid black;
-    margin: 15px 10px 10px 20px;
+    margin: 15px 15px;
 }
-#acceptDecline{
+.userRow>p{
+    margin-right: 205px;
+}
+#accept, #decline{
     height: 50px; 
-    margin-inline-start: 120px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .bottomCard{
     width: 530px;
